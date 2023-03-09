@@ -1,10 +1,10 @@
 $(function(){
-    $('.top_slider').slick({
+    $('.top-slider').slick({
         dots: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        nextArrow:'<a href="#" class="slick-arrow slick-next"><img src="images/forward.svg"></a>',
-        prevArrow:'<a href="#" class="slick-arrow slick-prev"><img src="images/back.svg"></a>',
+        nextArrow:'<button class="slick-arrow slick-next"><img src="images/back.svg"></button>',
+        prevArrow:'<button class="slick-arrow slick-prev"><img src="images/forward.svg"></button>',
 
         responsive: [
             {
